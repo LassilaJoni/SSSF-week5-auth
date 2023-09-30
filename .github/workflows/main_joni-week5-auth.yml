@@ -23,7 +23,7 @@ jobs:
 
       - name: npm install, build, and test
         env:
-          DATABASE_URL: ${{ secrets.DATABASE_URL}}
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}
           JWT_SECRET: ${{ secrets.JWT_SECRET }}
         run: |
           npm install
